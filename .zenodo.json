@@ -1,0 +1,45 @@
+{
+  "title": "ES-MADM III: Final Computational Package",
+  "description": "This record provides the final computational package supporting the ES-MADM III framework, a preference-conditioned fuzzy entropy-synergy model for multi-attribute decision diagnostics and robust ranking under uncertainty. The package includes the final R/Shiny implementation, scenario-specific Excel input workbooks, consolidated computational outputs, manuscript figure-generation scripts, and a non-mathematical workflow overview intended to support transparent computational reproducibility.",
+  "creators": [
+    {
+      "name": "Kiratsoudis, Sideris",
+      "orcid": "0009-0006-0584-2751",
+      "affiliation": "Department of Physics, Faculty of Sciences, Democritus University of Thrace, Kavala, Greece"
+    },
+    {
+      "name": "Tsiantos, Vasilis",
+      "affiliation": "Department of Physics, Faculty of Sciences, Democritus University of Thrace, Kavala, Greece"
+    },
+    {
+      "name": "Spyropoulos, Alexandros Z.",
+      "affiliation": "Department of Physics, Faculty of Sciences, Democritus University of Thrace, Kavala, Greece"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ES-MADM III",
+    "multi-attribute decision-making",
+    "fuzzy uncertainty",
+    "entropy",
+    "PROMETHEE",
+    "decision diagnostics",
+    "scenario analysis",
+    "R",
+    "Shiny",
+    "computational reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/skiratsoudis/ES-MADM-III-Computational-Package",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "communities": [],
+  "upload_type": "software",
+  "access_right": "open",
+  "version": "1.0.0",
+  "language": "eng",
+  "notes": "This archive corresponds to the final computational package used to reproduce the ES-MADM III manuscript case-study results, benchmark comparison, diagnostic outputs, and manuscript figures. Earlier development versions, obsolete scripts, draft model files, and superseded outputs are intentionally excluded."
+}
