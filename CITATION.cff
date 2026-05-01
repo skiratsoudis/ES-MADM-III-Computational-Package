@@ -1,23 +1,36 @@
 cff-version: 1.2.0
-message: "If you use this software package, please cite it as below."
+message: "If you use this computational package, please cite the archived software record below."
 title: "ES-MADM III: Final Computational Package"
 type: software
-version: "1.0.0"
-date-released: "2026-05-01"
+version: "1.0.1"
+doi: 10.5281/zenodo.19945796
+url: "https://doi.org/10.5281/zenodo.19945796"
+repository-code: "https://github.com/skiratsoudis/ES-MADM-III-Computational-Package"
+license: "MIT"
+date-released: 2026-05-01
+
+abstract: >-
+  This repository provides the final computational package supporting the
+  ES-MADM III framework, a preference-conditioned fuzzy entropy-synergy model
+  for multi-attribute decision diagnostics and robust ranking under uncertainty.
+  The package includes the final R/Shiny implementation, scenario-specific Excel
+  input workbooks, consolidated computational outputs, manuscript figure-generation
+  scripts, and a non-mathematical workflow overview intended to support transparent
+  computational reproducibility.
 
 authors:
   - family-names: "Kiratsoudis"
     given-names: "Sideris"
     orcid: "https://orcid.org/0009-0006-0584-2751"
+    affiliation: "Department of Physics, Faculty of Sciences, Democritus University of Thrace, Kavala, Greece"
+
   - family-names: "Tsiantos"
     given-names: "Vasilis"
+    affiliation: "Department of Physics, Faculty of Sciences, Democritus University of Thrace, Kavala, Greece"
+
   - family-names: "Spyropoulos"
     given-names: "Alexandros Z."
-
-repository-code: "https://github.com/skiratsoudis/ES-MADM-III-Computational-Package"
-license: "MIT"
-
-abstract: "This repository provides the final computational package supporting the ES-MADM III framework, a preference-conditioned fuzzy entropy-synergy model for multi-attribute decision diagnostics and robust ranking under uncertainty. The package includes the final R/Shiny implementation, scenario-specific input workbooks, consolidated computational outputs, and manuscript figure-generation scripts."
+    affiliation: "Department of Physics, Faculty of Sciences, Democritus University of Thrace, Kavala, Greece"
 
 keywords:
   - "ES-MADM III"
@@ -29,3 +42,21 @@ keywords:
   - "scenario analysis"
   - "R"
   - "Shiny"
+  - "computational reproducibility"
+
+preferred-citation:
+  type: software
+  authors:
+    - family-names: "Kiratsoudis"
+      given-names: "Sideris"
+      orcid: "https://orcid.org/0009-0006-0584-2751"
+    - family-names: "Tsiantos"
+      given-names: "Vasilis"
+    - family-names: "Spyropoulos"
+      given-names: "Alexandros Z."
+  title: "ES-MADM III: Final Computational Package"
+  version: "1.0.1"
+  doi: 10.5281/zenodo.19945796
+  url: "https://doi.org/10.5281/zenodo.19945796"
+  date-released: 2026-05-01
+  publisher: "Zenodo"
