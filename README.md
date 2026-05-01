@@ -1,12 +1,20 @@
 # ES-MADM III Computational Package
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19945796.svg)](https://doi.org/10.5281/zenodo.19945796)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![R](https://img.shields.io/badge/Language-R-blue.svg)](https://www.r-project.org/)
+
 This repository provides the final computational package supporting the ES-MADM III framework, a preference-conditioned fuzzy entropy–synergy model for multi-attribute decision diagnostics and robust ranking under uncertainty.
 
 The repository accompanies the manuscript:
 
 **ES-MADM III: A Preference-Conditioned Fuzzy Entropy–Synergy Framework for Multi-Attribute Decision Diagnostics and Robust Ranking**
 
-The package includes the final R/Shiny implementation, five scenario-specific input workbooks, consolidated computational outputs, and a manuscript figure-generation script. It is designed to support transparent reproduction of the case-study results, benchmark comparison, and graphical outputs reported in the manuscript.
+The package includes the final R/Shiny implementation, five scenario-specific input workbooks, consolidated computational outputs, and a manuscript figure-generation script. It is designed to support transparent reproduction of the case-study results, benchmark comparison, diagnostic outputs, and graphical results reported in the manuscript.
+
+The archived release is available on Zenodo:
+
+**DOI:** [10.5281/zenodo.19945796](https://doi.org/10.5281/zenodo.19945796)
 
 ---
 
@@ -15,17 +23,24 @@ The package includes the final R/Shiny implementation, five scenario-specific in
 ```text
 ES-MADM-III-Computational-Package/
 ├── app/
-│   └── ES_MADM_III_Decision_Studio_Final.R
+│   ├── ES_MADM_III_Decision_Studio_Final.R
+│   └── README.md
 ├── data/
 │   ├── ES_MADM_III_Input_CaseStudy_S1_Baseline.xlsx
 │   ├── ES_MADM_III_Input_CaseStudy_S2_HighUncertainty.xlsx
 │   ├── ES_MADM_III_Input_CaseStudy_S3_ReducedSeparability.xlsx
 │   ├── ES_MADM_III_Input_CaseStudy_S4A_Conflicting_PerformanceFocus.xlsx
-│   └── ES_MADM_III_Input_CaseStudy_S4B_Conflicting_CostResilienceFocus.xlsx
+│   ├── ES_MADM_III_Input_CaseStudy_S4B_Conflicting_CostResilienceFocus.xlsx
+│   └── README.md
+├── docs/
+│   └── Model_Workflow_Overview.md
 ├── results/
-│   └── ES_MADM_III_Results_Computational_Outputs.xlsx
+│   ├── ES_MADM_III_Results_Computational_Outputs.xlsx
+│   └── README.md
 ├── scripts/
-│   └── ES_MADM_III_Figures_Manuscript.R
+│   ├── ES_MADM_III_Figures_Manuscript.R
+│   └── README.md
+├── CITATION.cff
 ├── LICENSE
 ├── .gitignore
 └── README.md
@@ -39,7 +54,7 @@ ES-MADM III is a computational framework for multi-attribute decision-making pro
 
 The model integrates fuzzy data representation, PROMETHEE-type preference conditioning, entropy-based information processing, operational representative weighting, final alternative scoring, and diagnostic interpretation within a single reproducible workflow.
 
-The repository focuses exclusively on the final computational version used for the manuscript. Earlier development versions, obsolete scripts, draft model documents, and superseded outputs are intentionally excluded.
+The repository focuses exclusively on the final computational version used for the manuscript. Earlier development versions, obsolete scripts, draft model documents, superseded outputs, and internal working materials are intentionally excluded.
 
 ---
 
@@ -119,6 +134,16 @@ scripts/ES_MADM_III_Figures_Manuscript.R
 ```
 
 This script reproduces the manuscript figures and benchmark visualizations from the final computational results.
+
+### Model Workflow Overview
+
+A non-mathematical overview of the ES-MADM III computational process is provided in:
+
+```text
+docs/Model_Workflow_Overview.md
+```
+
+This document describes the main computational stages and interpretation logic of the model without reproducing the formal mathematical formulation of the manuscript.
 
 ---
 
@@ -217,9 +242,11 @@ Earlier development versions, obsolete scripts, draft model documents, supersede
 
 ## Citation
 
-If you use this repository, please cite the associated manuscript and the archived Zenodo record once available.
+If you use this repository, please cite the archived Zenodo record:
 
-A formal `CITATION.cff` file will be included before final Zenodo archiving.
+**Kiratsoudis, S., Tsiantos, V., & Spyropoulos, A. Z. (2026). ES-MADM III: Final Computational Package (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.19945796**
+
+The repository also includes a `CITATION.cff` file for software citation metadata.
 
 ---
 
