@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software package, please cite it as below."
+title: "ES-MADM III: Final Computational Package"
+type: software
+version: "1.0.0"
+date-released: "2026-05-01"
+
+authors:
+  - family-names: "Kiratsoudis"
+    given-names: "Sideris"
+    orcid: "https://orcid.org/0009-0006-0584-2751"
+  - family-names: "Tsiantos"
+    given-names: "Vasilis"
+  - family-names: "Spyropoulos"
+    given-names: "Alexandros Z."
+
+repository-code: "https://github.com/skiratsoudis/ES-MADM-III-Computational-Package"
+license: "MIT"
+
+abstract: "This repository provides the final computational package supporting the ES-MADM III framework, a preference-conditioned fuzzy entropy-synergy model for multi-attribute decision diagnostics and robust ranking under uncertainty. The package includes the final R/Shiny implementation, scenario-specific input workbooks, consolidated computational outputs, and manuscript figure-generation scripts."
+
+keywords:
+  - "ES-MADM III"
+  - "multi-attribute decision-making"
+  - "fuzzy uncertainty"
+  - "entropy"
+  - "PROMETHEE"
+  - "decision diagnostics"
+  - "scenario analysis"
+  - "R"
+  - "Shiny"
